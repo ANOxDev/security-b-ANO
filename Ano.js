@@ -21,7 +21,7 @@ var table = require("table").table;
 const Discord = require("discord.js");
 const cmd = require("node-cmd");
 const prefix = "a!";
-client.login("تـــــۆکـــــیــــن لـێرە دانێ");
+client.login("token lera dabne");
 client.on("ready", async () => {
   console.log(`Logged in as ${client.user.username}!`);
   client.user.setStatus("idle");
@@ -45,7 +45,7 @@ client.on("message", async message => {
       .setDescription(`
       
   
-
+Coded By /// dimod ///
 ------//------
 ⌖| Security
 > anti ban [Number]
@@ -65,8 +65,8 @@ client.on("message", async message => {
 > say , unban[userid/all]
 ------//------
 __ [Vote](link top gg) __  
-__ [invite](invitebot) __  __ [Support](https://discord.gg/cetGQvWD3h) __
-Coded By /// ANO ///
+__ [invite](invitebot) __  __ [Support](https://discord.gg/msrPc36PSX) __
+Coded By /// dimod ///
 `);
     message.channel.send(help);
   }
@@ -1370,4 +1370,6 @@ client.on("message", message => {
     message.channel.send(embed);
   }
 })
-/////by ANO//////
+
+Coded By /// dimod ///
+
